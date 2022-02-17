@@ -1,0 +1,270 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url(https://ds-robotics.ru/assets/images/articles/kuka_arc-1.jpg);
+
+    /* background-color: #F5F7FA; */
+}
+
+
+
+.main-container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    height: 1319px;
+    background: #fff;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    
+}
+
+/* main content section*/
+
+.main-content-section {
+    padding: 100px 90px;
+ }
+
+ .main-content-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+    margin: 0 0 10px 0;
+ }
+
+/* about me section*/
+
+ .about-me-section {
+    margin: 0 0 40px 0;
+    
+}
+
+.about-me-profession {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    margin: 0 0 20px 0;
+  
+}
+
+.about-me-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000;
+    margin: 0 0 25px 0;
+
+}
+
+.about-me-diskription {
+    width: 400px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+/* my projects section*/
+
+.projects-section {
+    margin: 0 0 50px 0;
+
+}
+
+.my-projects-list {
+    padding: 0 0 0 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+
+}
+
+.my-projects-item {
+    color: #000;
+    font-weight: bold;
+}
+
+.my-projects-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.my-projects-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 5px;
+}
+
+.my-projects-bracket {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+
+}
+
+.my-projects-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+
+.work-experience-company {
+    color: #FB6D3A;
+}
+
+.work-experience-position {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+}
+
+.work-experience-period {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 0 0 10px 0;
+}
+
+.work-experience-devider {
+    color: #000;
+}
+
+.work-experience-list {
+    padding: 0 0 0 18px;
+}
+
+.work-experience-duty {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.work-experience-company-block {
+    margin: 0 0 10px 0;
+}
+
+/* education section*/
+
+.education-section {
+    margin: 45px 0 0 0;
+}
+
+.education-section-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin: 0 0 10px 0;
+}
+
+.education-section-position {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin: 0 0 10px 0;
+}
+
+
+/* sidebar section*/
+.sidebar-section {
+    background-color:#1E2939;
+    width: 370px;
+    padding: 40px 0px;
+}
+
+
+.contacs-section ,
+.tech-skill-section,
+.soft-skill-section
+ {
+    margin: 50px 0px 0px 40px;
+
+}
+
+.sidebar-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* contacs section */
+.contacs-section-type {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 5px;
+    
+}
+
+.contacs-section-link {
+    color: grey;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* tech skill list*/
+.tech-skill-list {
+    padding: 0 0 0 14px;
+
+}
+
+.tech-skill-item {
+    color:rgba(251, 109, 58, 1);
+    
+}
+
+.tech-skill-item-text {
+    color: #fff;
+
+}
+
+/* soft skill */
+
+.soft-skill-list {
+    padding: 0 0 0 14px;
+}
+
+.tech-skill-item {
+    color:rgba(251, 109, 58, 1);
+}
+
+.tech-skill-item-text {
+    color: #fff;
+}
